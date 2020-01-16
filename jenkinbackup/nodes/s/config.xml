@@ -1,0 +1,30 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<slave>
+  <name>s</name>
+  <description></description>
+  <remoteFS>/home/ec2-user</remoteFS>
+  <numExecutors>1</numExecutors>
+  <mode>NORMAL</mode>
+  <retentionStrategy class="hudson.slaves.RetentionStrategy$Always"/>
+  <launcher class="hudson.plugins.sshslaves.SSHLauncher" plugin="ssh-slaves@1.31.0">
+    <host>54.221.178.120</host>
+    <port>22</port>
+    <credentialsId>73784ef6-af9a-43cf-84a9-768cab98ee41</credentialsId>
+    <launchTimeoutSeconds>210</launchTimeoutSeconds>
+    <maxNumRetries>10</maxNumRetries>
+    <retryWaitTime>15</retryWaitTime>
+    <sshHostKeyVerificationStrategy class="hudson.plugins.sshslaves.verifiers.ManuallyProvidedKeyVerificationStrategy">
+      <key>
+        <algorithm>ssh-rsa</algorithm>
+        <key>AAAAB3NzaC1yc2EAAAADAQABAAABAQCzfwxz+PPvEn26wgcZIH2+GIs0N7tjegSfylMyeur/tL0j
+r1jZ95nZnSt4qsFMx9BTJw0U8we93UVka5+3FdsPYNifWH8tILNlddZOdplRVj/6beFncrHO4n5C
+H9bVP0LBPq8938MIRdllZDW2wvyjdYJTgDnZ8bc9zA4bvmpXxKLyGhyiyDTuaNcJLizu7WJuO2rv
+obC3Z1algPaTlycTZI/bNtdAnBq/dtjofuAv344+SPAUiMucurgyWK/s9zRXSuMhyjfHVPCDbYNd
+1dyF0xDzx3A/QlXPstO2oHiNOwKV5J41XTCV9qZkvglPiT/CJD1kVO1x2WLoqy82GO5t</key>
+      </key>
+    </sshHostKeyVerificationStrategy>
+    <tcpNoDelay>true</tcpNoDelay>
+  </launcher>
+  <label>a</label>
+  <nodeProperties/>
+</slave>

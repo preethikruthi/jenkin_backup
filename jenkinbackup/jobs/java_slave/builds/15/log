@@ -1,0 +1,82 @@
+Started by user [8mha:////4NzodIHr1WeQPmiGeog4aq5Eh8jwR9HER4Sla2khnd4bAAAAmR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzuEgZe/dLi1CL9gqLU1JKMTADJB44DwgAAAA==[0mPreethi B v
+Running as SYSTEM
+Building remotely on [8mha:////4EG7BySU+BLwhyadOM4b1b7Z49F+enBM0UG7RAGSYNitAAAAnR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZB/eT83ILSktQi/eKcxLLUeCMAMxXTucYAAAA=[0mslave_2 in workspace /home/ec2-user/preeti/workspace/java_slave
+No credentials specified
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/preethikruthi/java_slave_2.git # timeout=10
+Fetching upstream changes from https://github.com/preethikruthi/java_slave_2.git
+ > git --version # timeout=10
+ > git fetch --tags --progress -- https://github.com/preethikruthi/java_slave_2.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision d89b073e75288d5af7cba06633a2320214e1b9b8 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f d89b073e75288d5af7cba06633a2320214e1b9b8 # timeout=10
+Commit message: "java"
+ > git rev-list --no-walk d89b073e75288d5af7cba06633a2320214e1b9b8 # timeout=10
+[java_slave] $ mvn clean install
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ---------------------< com.mycompany.app:biggest >----------------------
+[INFO] Building biggest 1
+[INFO] --------------------------------[ jar ]---------------------------------
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-clean-plugin/2.5/maven-clean-plugin-2.5.pom
+Progress (1): 2.2/3.9 kBProgress (1): 3.9 kB                        Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-clean-plugin/2.5/maven-clean-plugin-2.5.pom (3.9 kB at 5.2 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-clean-plugin/2.5/maven-clean-plugin-2.5.jar
+Progress (1): 2.2/25 kBProgress (1): 5.0/25 kBProgress (1): 7.7/25 kBProgress (1): 10/25 kB Progress (1): 13/25 kBProgress (1): 16/25 kBProgress (1): 19/25 kBProgress (1): 21/25 kBProgress (1): 24/25 kBProgress (1): 25 kB                      Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-clean-plugin/2.5/maven-clean-plugin-2.5.jar (25 kB at 404 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-install-plugin/2.4/maven-install-plugin-2.4.pom
+Progress (1): 2.2/6.4 kBProgress (1): 5.0/6.4 kBProgress (1): 6.4 kB                        Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-install-plugin/2.4/maven-install-plugin-2.4.pom (6.4 kB at 304 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-install-plugin/2.4/maven-install-plugin-2.4.jar
+Progress (1): 2.2/27 kBProgress (1): 5.0/27 kBProgress (1): 7.7/27 kBProgress (1): 10/27 kB Progress (1): 13/27 kBProgress (1): 16/27 kBProgress (1): 19/27 kBProgress (1): 21/27 kBProgress (1): 24/27 kBProgress (1): 27/27 kBProgress (1): 27 kB                      Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-install-plugin/2.4/maven-install-plugin-2.4.jar (27 kB at 457 kB/s)
+[INFO] 
+[8mha:////4ACTTl659klymRHL3koL7KDRtPY36e6KWTgvr/gx6C70AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ biggest ---
+[INFO] Deleting /home/ec2-user/preeti/workspace/java_slave/target
+[INFO] 
+[8mha:////4ACTTl659klymRHL3koL7KDRtPY36e6KWTgvr/gx6C70AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ biggest ---
+[8mha:////4BLy9xF0e2XyTl48EsiI6LSVEkUOVqLkuPVS5sYAztpXAAAAYx+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6S2fNly5fzGzauYGBgqihikoFqS8/OK83NS9ZwhNEghAwQwghQWAACwxA+XYgAAAA==[0m[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /home/ec2-user/preeti/workspace/java_slave/src/main/resources
+[INFO] 
+[8mha:////4ACTTl659klymRHL3koL7KDRtPY36e6KWTgvr/gx6C70AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ biggest ---
+[INFO] No sources to compile
+[INFO] 
+[8mha:////4ACTTl659klymRHL3koL7KDRtPY36e6KWTgvr/gx6C70AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ biggest ---
+[8mha:////4BLy9xF0e2XyTl48EsiI6LSVEkUOVqLkuPVS5sYAztpXAAAAYx+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6S2fNly5fzGzauYGBgqihikoFqS8/OK83NS9ZwhNEghAwQwghQWAACwxA+XYgAAAA==[0m[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /home/ec2-user/preeti/workspace/java_slave/src/test/resources
+[INFO] 
+[8mha:////4ACTTl659klymRHL3koL7KDRtPY36e6KWTgvr/gx6C70AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ biggest ---
+[INFO] No sources to compile
+[INFO] 
+[8mha:////4ACTTl659klymRHL3koL7KDRtPY36e6KWTgvr/gx6C70AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ biggest ---
+[INFO] No tests to run.
+[INFO] 
+[8mha:////4ACTTl659klymRHL3koL7KDRtPY36e6KWTgvr/gx6C70AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ biggest ---
+[8mha:////4BLy9xF0e2XyTl48EsiI6LSVEkUOVqLkuPVS5sYAztpXAAAAYx+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6S2fNly5fzGzauYGBgqihikoFqS8/OK83NS9ZwhNEghAwQwghQWAACwxA+XYgAAAA==[0m[WARNING] JAR will be empty - no content was marked for inclusion!
+[INFO] Building jar: /home/ec2-user/preeti/workspace/java_slave/target/biggest-1.jar
+[INFO] 
+[8mha:////4ACTTl659klymRHL3koL7KDRtPY36e6KWTgvr/gx6C70AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-install-plugin:2.4:install (default-install) @ biggest ---
+Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/3.0.5/plexus-utils-3.0.5.pom
+Progress (1): 2.2/2.5 kBProgress (1): 2.5 kB                        Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/3.0.5/plexus-utils-3.0.5.pom (2.5 kB at 81 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus/3.1/plexus-3.1.pom
+Progress (1): 2.2/19 kBProgress (1): 5.0/19 kBProgress (1): 7.8/19 kBProgress (1): 11/19 kB Progress (1): 13/19 kBProgress (1): 16/19 kBProgress (1): 19 kB                      Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus/3.1/plexus-3.1.pom (19 kB at 517 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-digest/1.0/plexus-digest-1.0.pom
+Progress (1): 1.1 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-digest/1.0/plexus-digest-1.0.pom (1.1 kB at 132 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-components/1.1.7/plexus-components-1.1.7.pom
+Progress (1): 2.2/5.0 kBProgress (1): 5.0 kB                        Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-components/1.1.7/plexus-components-1.1.7.pom (5.0 kB at 172 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus/1.0.8/plexus-1.0.8.pom
+Progress (1): 2.2/7.2 kBProgress (1): 5.0/7.2 kBProgress (1): 7.2 kB                        Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus/1.0.8/plexus-1.0.8.pom (7.2 kB at 602 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-container-default/1.0-alpha-8/plexus-container-default-1.0-alpha-8.pom
+Progress (1): 2.2/7.3 kBProgress (1): 5.0/7.3 kBProgress (1): 7.3 kB                        Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-container-default/1.0-alpha-8/plexus-container-default-1.0-alpha-8.pom (7.3 kB at 807 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/3.0.5/plexus-utils-3.0.5.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-digest/1.0/plexus-digest-1.0.jar
+Progress (1): 2.2/230 kBProgress (1): 5.0/230 kBProgress (1): 7.7/230 kBProgress (1): 10/230 kB Progress (1): 13/230 kBProgress (1): 16/230 kBProgress (1): 19/230 kBProgress (1): 21/230 kBProgress (1): 24/230 kBProgress (1): 27/230 kBProgress (1): 30/230 kBProgress (1): 32/230 kBProgress (1): 36/230 kBProgress (1): 40/230 kBProgress (1): 45/230 kBProgress (1): 49/230 kBProgress (1): 53/230 kBProgress (1): 57/230 kBProgress (1): 61/230 kBProgress (1): 65/230 kBProgress (2): 65/230 kB | 2.2/12 kBProgress (2): 65/230 kB | 5.0/12 kBProgress (2): 65/230 kB | 7.7/12 kBProgress (2): 65/230 kB | 10/12 kB Progress (2): 65/230 kB | 12 kB                                  Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-digest/1.0/plexus-digest-1.0.jar (12 kB at 204 kB/s)
+Progress (1): 69/230 kBProgress (1): 73/230 kBProgress (1): 77/230 kBProgress (1): 81/230 kBProgress (1): 85/230 kBProgress (1): 90/230 kBProgress (1): 94/230 kBProgress (1): 98/230 kBProgress (1): 102/230 kBProgress (1): 106/230 kBProgress (1): 110/230 kBProgress (1): 114/230 kBProgress (1): 118/230 kBProgress (1): 122/230 kBProgress (1): 126/230 kBProgress (1): 131/230 kBProgress (1): 135/230 kBProgress (1): 139/230 kBProgress (1): 143/230 kBProgress (1): 147/230 kBProgress (1): 151/230 kBProgress (1): 155/230 kBProgress (1): 159/230 kBProgress (1): 163/230 kBProgress (1): 167/230 kBProgress (1): 171/230 kBProgress (1): 176/230 kBProgress (1): 180/230 kBProgress (1): 184/230 kBProgress (1): 188/230 kBProgress (1): 192/230 kBProgress (1): 196/230 kBProgress (1): 200/230 kBProgress (1): 204/230 kBProgress (1): 208/230 kBProgress (1): 212/230 kBProgress (1): 217/230 kBProgress (1): 221/230 kBProgress (1): 225/230 kBProgress (1): 229/230 kBProgress (1): 230 kB                        Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/3.0.5/plexus-utils-3.0.5.jar (230 kB at 2.1 MB/s)
+[INFO] Installing /home/ec2-user/preeti/workspace/java_slave/target/biggest-1.jar to /home/ec2-user/.m2/repository/com/mycompany/app/biggest/1/biggest-1.jar
+[INFO] Installing /home/ec2-user/preeti/workspace/java_slave/pom.xml to /home/ec2-user/.m2/repository/com/mycompany/app/biggest/1/biggest-1.pom
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 5.288 s
+[INFO] Finished at: 2020-01-15T03:20:20Z
+[INFO] ------------------------------------------------------------------------
+Finished: SUCCESS

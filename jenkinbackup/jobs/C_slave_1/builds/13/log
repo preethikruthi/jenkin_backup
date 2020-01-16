@@ -1,0 +1,22 @@
+Started by user [8mha:////4NzodIHr1WeQPmiGeog4aq5Eh8jwR9HER4Sla2khnd4bAAAAmR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzuEgZe/dLi1CL9gqLU1JKMTADJB44DwgAAAA==[0mPreethi B v
+Running as SYSTEM
+Building remotely on [8mha:////4EG7BySU+BLwhyadOM4b1b7Z49F+enBM0UG7RAGSYNitAAAAnR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZB/eT83ILSktQi/eKcxLLUeCMAMxXTucYAAAA=[0mslave_2 in workspace /home/ec2-user/preeti/workspace/C_slave_1
+No credentials specified
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/preethikruthi/test1.git # timeout=10
+Fetching upstream changes from https://github.com/preethikruthi/test1.git
+ > git --version # timeout=10
+ > git fetch --tags --progress -- https://github.com/preethikruthi/test1.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision f134e8e8007386b83f25b19f86734acdeac615f2 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f f134e8e8007386b83f25b19f86734acdeac615f2 # timeout=10
+Commit message: "adding source code"
+ > git rev-list --no-walk f134e8e8007386b83f25b19f86734acdeac615f2 # timeout=10
+[C_slave_1] $ /bin/sh -xe /tmp/jenkins8233904625081469786.sh
++ cd /home/ec2-user/preeti/workspace/C_slave_1
++ make
+gcc -o prog.exe big3.o reverse.o main.o
+Finished: SUCCESS
